@@ -18,7 +18,7 @@ $row3 = mysqli_fetch_array($res3);
 $res4 = mysqli_query($link,"SELECT fname FROM users ORDER BY uid DESC LIMIT 1");
 $row4 = mysqli_fetch_array($res4);
 
-$res5 = mysqli_query($link,"SELECT count(id) as count_users  FROM app_users");
+$res5 = mysqli_query($link,"SELECT count(id) as count_users  FROM appuser");
 $row5 = mysqli_fetch_array($res5);
 ?>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
