@@ -17,6 +17,9 @@ $row3 = mysqli_fetch_array($res3);
 
 $res4 = mysqli_query($link,"SELECT fname FROM users ORDER BY uid DESC LIMIT 1");
 $row4 = mysqli_fetch_array($res4);
+
+$res5 = mysqli_query($link,"SELECT count(id) as count_users  FROM app_users");
+$row5 = mysqli_fetch_array($res5);
 ?>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script>
@@ -97,8 +100,8 @@ $row4 = mysqli_fetch_array($res4);
             <div class="card border-danger bg-transparent mb-6" style="width: 18rem; height: 15rem; position:absolute; left:610px;">
 
         <div class="card-body text-danger">
-            <h5 class="card-title">No of Incidents</h5>
-            <div class="size1"><center><?php echo '1';?></center></div>
+            <h5 class="card-title">No of App Users</h5>
+            <div class="size1"><center><?php echo $row5["count_users"];;?></center></div>
         </div>
             </div>
 
