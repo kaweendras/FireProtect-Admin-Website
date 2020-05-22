@@ -1,5 +1,5 @@
 <p align="center">
-  <img  src="https://github.com/kaweendras/FireProtect-Landing-Page/blob/master/assets/img/logo%20main.png" width="15%">
+  <img  src="https://github.com/kaweendras/FireProtect-Admin-Website/blob/master/assets/img/logo%20main.png" width="15%">
  </br>FireProtect</br> Prevention of Wildfire using IoT
 </p>
 </br>
@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <img  src="https://github.com/kaweendras/FireProtect-Landing-Page/blob/master/assets/img/SAMPLE.PNG" width="75%">
+  <img  src="https://github.com/kaweendras/FireProtect-Admin-Website/blob/master/assets/img/SAMPLE.PNG" width="75%">
 </p>
 
 
@@ -26,6 +26,8 @@
 * [Bootstrap](https://getbootstrap.com)
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 * [JavaScript](https://www.javascript.com/)
+* [Mapbox](https://www.mapbox.com/)
+
 
 
 
@@ -36,7 +38,7 @@
 
 1. Clone the repo
 ```sh
-git clone https:://github.com/kaweendras/FireProtect-Landing-Page.git
+git clone https://github.com/kaweendras/FireProtect-Admin-Website.git
 ```
     
 
@@ -50,7 +52,7 @@ You can use this templates in your own projects.
 <!-- ROADMAP -->
 #### Roadmap
 
-See the [open issues](https://github.comkaweendras/kaweendras.github.io/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/kaweendras/FireProtect-Admin-Website/issues) for a list of proposed features (and known issues).
 
 
 
