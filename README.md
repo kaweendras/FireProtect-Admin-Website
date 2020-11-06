@@ -79,7 +79,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 #### Contact
 
-[![Social](https://img.shields.io/twitter/follow/Dear__spider?style=social)](https://twitter.com/intent/follow?screen_name=Dear__spider) - salithak1@gmail.com
+[![Social](https://img.shields.io/twitter/follow/Dear__spider?style=social)](https://twitter.com/intent/follow?screen_name=Dear__spider) - salitha.wijerathna@gmail.com
 
 
 
